@@ -3,7 +3,7 @@ module Beaker
     module Helpers
       module Template
         require 'stringify-hash'
-        # include your modules from the beaker-template folder. Example below:
+        # include your modules from the beaker-test folder. Example below:
         require 'beaker-template/helpers'
         require 'beaker-template/version'
       end

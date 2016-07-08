@@ -2,9 +2,10 @@ module Beaker
   module DSL
     module Helpers
       module Template
-
-        # include your helper methods here as simple method definitions
-
+        def pinghosts
+          hosts.each do |h|
+            on(h, "echo hello")
+        end
       end
     end
   end
